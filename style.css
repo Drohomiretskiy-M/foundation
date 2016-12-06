@@ -1,0 +1,108 @@
+header {
+    background: url(/img/header-bg.jpg) center, center, no-repeat;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    padding: 130px 20px 90px 20px;
+}
+
+header>h1 {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 25px;
+}
+
+header>h3 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+    font-style: normal;
+}
+
+header>p {
+    font-size: 12px;
+}
+
+.subscribe {
+    background: rgba(0, 0, 0, 0.65);
+    display: table;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+    border-radius: 5px;
+}
+
+.subscribe input[type="submit"] {
+    background-color: #ae2c52;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px 35px 10px 35px;
+    cursor: pointer;
+}
+
+.subscribe input {
+    float: left;
+}
+
+.subscribe input[type="text"],
+.subscribe input[type="email"] {
+    border: 0;
+    width: 320 px;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 12px 20px 13px 20px;
+    box-sizing: border-box;
+}
+
+article {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+article>h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+article>p {
+    margin-bottom: 30px;
+}
+
+.imgleft {
+    float: left;
+    margin: 0 30px 20px 0;
+}
+
+@media screen and (max-width:692px) {
+    .subscribe input[type="text"], .subscribe input[type="email"] {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:515px) {
+    .subscribe input[type="text"], .subscribe input[type="email"] {
+        width: 280px;
+        float: none;
+        display: block;
+        margin-right: none;
+        margin-bottom: 10px;
+    }
+    header{
+        padding: 20px 10px 10px 10px;
+    }
+    header>h1 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+        
+        
+}
+    .subscribe input[type="submit"] {
+   width: 280px;
+    }
+}
